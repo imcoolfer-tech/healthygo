@@ -60,12 +60,17 @@ body {
     width: 100%;
 }
 
-.main-image {
-    width: 40px;
-    height: 40px;
-    object-fit: cover;
-    border-radius: 5px;
-    object-position: top center;
+img.main-image {
+    display: block !important;
+    width: 50px !important;
+    height: 50px !important;
+    min-width: 50px;
+    max-width: 50px;
+    object-fit: contain;
+
+    position: relative;
+    left: 0px;
+    top: -20px;
 }
 
 .progress-container h1 {
