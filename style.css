@@ -63,7 +63,8 @@ body {
 .main-image {
     width: 60px;
     height: 60px;
-    border-radius: 15px;
+    object-fit: cover;
+    border-radius: 10px;
     object-position: top center;
 }
 
