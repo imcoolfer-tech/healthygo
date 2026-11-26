@@ -82,7 +82,7 @@ body {
 
 /* Image Size Control */
 :root {
-    --image-size: 200px;
+    --image-size: 300px;
 }
 
 img.main-image {
