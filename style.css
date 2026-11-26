@@ -89,3 +89,7 @@ img.main-image {
     color: white;
     font-size: 13px;
 }
+
+.main-image {
+    outline: 3px solid red !important;
+}
