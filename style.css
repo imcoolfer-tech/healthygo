@@ -80,17 +80,3 @@ body {
     font-size: 13px;
 }
 
-/* Image Size Control */
-:root {
-    --image-size: 300px;
-}
-
-img.main-image {
-    display: block;
-    width: var(--image-size) !important;
-    height: var(--image-size) !important;
-    max-width: none ;
-    max-height: none ;
-    object-fit: contain;
-    outline: none !important;
-}
