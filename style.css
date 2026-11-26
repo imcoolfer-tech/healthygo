@@ -58,16 +58,6 @@ body {
     gap: 12px;
 }
 
-/* Image */
-img.main-image {
-    display: block;
-    width: 200px !important;
-    height: 200px !important;
-    max-width: none !important;
-    max-height: none !important;
-    object-fit: contain;
-}
-
 /* Progress Bar */
 .progress-bar {
     width: 250px;
@@ -90,6 +80,17 @@ img.main-image {
     font-size: 13px;
 }
 
-.main-image {
-    outline: 3px solid red !important;
+/* Image Size Control */
+:root {
+    --image-size: 120px;
+}
+
+img.main-image {
+    display: block;
+    width: var(--image-size) !important;
+    height: var(--image-size) !important;
+    max-width: none !important;
+    max-height: none !important;
+    object-fit: contain;
+    outline: none !important;
 }
