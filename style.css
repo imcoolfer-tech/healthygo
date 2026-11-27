@@ -80,3 +80,9 @@ body {
     font-size: 13px;
 }
 
+/*image heart*/
+.main-image {
+  position: fixed;
+  bottom: 70px;
+}
+
