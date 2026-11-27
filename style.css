@@ -58,22 +58,6 @@ body {
     gap: 12px;
 }
 
-/* Progress Bar */
-.progress-bar {
-    width: 250px;
-    height: 8px;
-    background: rgba(255,255,255,0.3);
-    border-radius: 20px;
-    overflow: hidden;
-}
-
-.progress-fill {
-    width: 65%;
-    height: 100%;
-    background: #38bdf8;
-    border-radius: 20px;
-}
-
 /* Text */
 .progress-container p {
     color: white;
