@@ -1,0 +1,2 @@
+VM1802 script.js:30 Uncaught ReferenceError: supabase is not defined
+    at VM1802 script.js:30:5
