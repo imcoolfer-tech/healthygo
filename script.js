@@ -32,7 +32,7 @@ const supabaseClient = window.supabase.createClient(
 );
 async function testConnection() {
     const { data, error } = await supabaseClient
-        .from("sensor_data")
+        .from("MAX301O2")
         .select("*")
         .limit(1);
 
