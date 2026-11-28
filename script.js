@@ -31,4 +31,17 @@ const supabaseClient =
     SUPABASE_URL,
     SUPABASE_KEY
 );
+async function testConnection() {
+    const { data, error } = await supabaseClient
+        .from("nama_tabel_kamu")
+        .select("*")
+        .limit(1);
 
+    if (error) {
+        console.error("Connection error:", error.message);
+    } else {
+        console.log("Supabase connected!", data);
+    }
+}
+
+testConnection();
