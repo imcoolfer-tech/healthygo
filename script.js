@@ -20,3 +20,15 @@ function animateImage() {
 }
 
 animateImage();
+
+const SUPABASE_URL =
+    "https://ywqykskhxpymbmjihnkg.supabase.co/rest/v1/";
+const SUPABASE_KEY = 
+    "sb_publishable_elTfOXUjfpJc-Sy7Wv40yg_GauYRbwl";
+
+const supabaseClient = 
+    supabase.createClient (
+    SUPABASE_URL,
+    SUPABASE_KEY
+);
+
