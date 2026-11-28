@@ -22,18 +22,17 @@ function animateImage() {
 animateImage();
 
 const SUPABASE_URL =
-    "https://ywqykskhxpymbmjihnkg.supabase.co/rest/v1/";
+    "https://ywqykskhxpymbmjihnkg.supabase.co";
 const SUPABASE_KEY = 
     "sb_publishable_elTfOXUjfpJc-Sy7Wv40yg_GauYRbwl";
 
-const supabaseClient = 
-    window.supabase.createClient (
+const supabaseClient = window.supabase.createClient(
     SUPABASE_URL,
     SUPABASE_KEY
 );
 async function testConnection() {
     const { data, error } = await supabaseClient
-        .from("nama_tabel_kamu")
+        .from("sensor_data")
         .select("*")
         .limit(1);
 
